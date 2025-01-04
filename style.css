@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cfa9ff, #95c0ff);
+    color: #fff;
+    padding-top: 5%;
+    padding-left: 11%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 61px;
+}
+.container button img{
+    width: 27px;
+    margin-right: 7px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    font-size: 17px;
+    outline: 0;
+    border: 0;
+    border-radius: 41px;
+    padding: 15px 25px;
+    margin: 29px 0 19px;
+}
